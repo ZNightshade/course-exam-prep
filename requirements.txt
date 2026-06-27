@@ -1,0 +1,9 @@
+# course-exam-prep 依赖
+# 一次性安装：pip install -r requirements.txt
+
+pymupdf          # PDF 文本提取 + 整页渲染成图（看图读取）
+python-pptx      # PPTX 文本/表格/备注提取、内嵌图导出
+python-docx      # DOCX 提取，以及生成可打印的 Word 手册
+pypinyin         # 开卷总索引按拼音排序
+latex2mathml     # 把 $...$ LaTeX 公式渲染成 Word 原生公式（理工/数学课必装）
+lxml             # latex2mathml→OMML 的 XSLT 转换（latex2mathml 通常已依赖）
