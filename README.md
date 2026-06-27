@@ -35,7 +35,19 @@
 
 ---
 
-## 📦 安装
+## 🔧 安装
+
+把 skill clone 到 Claude Code 的 skills 目录：
+
+```bash
+# 用户级（所有项目可用）
+git clone https://github.com/ZNightshade/course-exam-prep.git ~/.claude/skills/course-exam-prep
+
+# 项目级（仅当前项目）
+git clone https://github.com/ZNightshade/course-exam-prep.git .claude/skills/course-exam-prep
+```
+
+再安装依赖：
 
 ```bash
 pip install -r requirements.txt
@@ -84,18 +96,6 @@ course-exam-prep/
     ├── manifest_example.json         # 开卷编译清单示例
     ├── manifest_example_closed.json  # 闭卷编译清单示例
     └── subagent_prompt_template.md   # 单讲 subagent 的派发指令模板
-```
-
----
-
-## 🔧 安装到 Claude Code
-
-```bash
-# 用户级（所有项目可用）
-git clone https://github.com/ZNightshade/course-exam-prep.git ~/.claude/skills/course-exam-prep
-
-# 项目级（仅当前项目）
-git clone https://github.com/ZNightshade/course-exam-prep.git .claude/skills/course-exam-prep
 ```
 
 ---
